@@ -32,10 +32,10 @@ FROM python:3.10-slim-buster
 
 WORKDIR /backend-flask
 
-$${\color{COPY}Light \space Green}$$ requirements.txt requirements.txt
-$${\color{RUN}Light \space Green}$$ pip3 install -r requirements.txt
+COPY requirements.txt requirements.txt
+RUN pip3 install -r requirements.txt
 
-$${\color{COPY}Light \space Green}$$ . .
+COPY . .
 
 ENV FLASK_ENV=development
 
