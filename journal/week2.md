@@ -1,7 +1,7 @@
 # Week 2 — Distributed Tracing
 ## X-Ray
 ## Instrument AWS X-Ray for Flask
-```py
+```bash
 export AWS_REGION="ca-central-1"
 gp env AWS_REGION="ca-central-1"
 ```
