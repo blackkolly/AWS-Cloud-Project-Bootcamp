@@ -2,7 +2,7 @@
 ## X-Ray
 ## Instrument AWS X-Ray for Flask
 ```html
-$\color{red}{export}$ AWS_REGION="ca-central-1"
+$\textcolor{red}{export}$ AWS_REGION="ca-central-1"
 gp env AWS_REGION="ca-central-1"
 ```
 Add to the `requirements.txt`
