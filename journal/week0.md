@@ -28,19 +28,21 @@ Download and run the AWS CLI MSI installer for Windows (64-bit):
 
 https://awscli.amazonaws.com/AWSCLIV2.msi
 
-To confirm the installation, open the Start menu, search for cmd or window PowerShell to open a command prompt window, and at the command prompt, use the aws --version command.
-
+To confirm the installation, open the Start menu, search for cmd or window PowerShell to open a command prompt window, and at the command prompt, use the `aws --version` command.
+```bash
 C:\> aws --version
+```
 
 # To configure the AWS CLI
 
 I opened window PowerShell and input the below command from my aws credentials:
-
+```bash
 $ aws configure 
 AWS Access Key ID : “xxxxxxxxxxxxxxx”
 AWS Secret Access Key [None]: “xxxxxxxxxxxxxxx”
  Default region name [None]: “xxxxxxxx”
 Default output format [None]: json
+```
 
 # Create a Billing Alarm
 -	Sign in to the AWS Management Console.
