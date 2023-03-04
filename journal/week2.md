@@ -176,7 +176,8 @@ Set the env var in your backend-flask for `docker-compose.yml`
       AWS_SECRET_ACCESS_KEY: "${AWS_SECRET_ACCESS_KEY}"
 ```
 ---
-< passing AWS_REGION doesn't seems to get picked up by boto3 so pass default region instead
+> passing AWS_REGION doesn't seems to get picked up by boto3 so pass default region instead
+> 
 
 [Rollbar](https://rollbar.com/)
 
