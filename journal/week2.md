@@ -9,7 +9,7 @@ Add to the `requirements.txt`
 ```
 aws-xray-sdk
 ```
-Install pythonpendencies
+Install python dependencies
 ```py
 pip install -r requirements.txt
 ```
